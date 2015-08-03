@@ -1,0 +1,22 @@
+command used to create database in mysql--
+
+CREATE DATABASE plankpro;
+
+
+
+command used to create DATA table(plank) in mysql--
+
+CREATE TABLE plank(si_no INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,name VARCHAR(30) NOT NULL,phonenumber VARCHAR(25),company VARCHAR(40),address VARCHAR(100),email VARCHAR(25), image BLOB);
+
+
+
+command used to create first 3 entries in DATA table(plank)--
+
+INSERT INTO plank(si_no,name,phonenumber,company,address,email) values('1','akshay','9740165340','Colourbow Ecommerce Pvt Ltd','no.3, 1st cross, MSRI Estate, Mathikere, Bangalore','akshay3636@gmail.com');
+
+INSERT INTO plank(si_no,name,phonenumber,company,address,email) values('2','anuj','9549857737','Quadgen Wireless Solutions Pvt Ltd','no.31, 8th Main, Kormangala, Bangalore','anuj.9381@gmail.com');
+
+INSERT INTO plank(si_no,name,phonenumber,company,address,email) values('3','rajeev rathod','7776391250','On Mobile Pvt Ltd','no.316, 12th Main, 6th Cross, Kalyan, Mumbai','rajeev.rathod90@gmail.com');
+
+
+

@@ -1,0 +1,1 @@
+Please install mysql server from the folder "prerequisites" before installing the software and run the queries in "SQL Queries Used" folder. The username for mysql server should be "root" and the password should be "akshay". If these are to be changed, corresponding changes must be made in the code.
